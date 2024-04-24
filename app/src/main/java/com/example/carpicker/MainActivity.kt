@@ -35,6 +35,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun CarPicker() {
     CarImageAndButton(
+        
         Modifier
             .fillMaxSize()
             .wrapContentSize(align = Alignment.Center)
